@@ -143,29 +143,29 @@ a {
     opacity: 1;
 }
 .slick-prev.slick-arrow {
-    background-image: url(../images/previous.png);
-    width: 36px;
-    height: 52px;
+    width: 0;
+    height: 0;
     position: absolute;
     left: 26px;
-    top: 45%;
+    top: 40%;
     z-index: 1;
-    display: block;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 .slick-next.slick-arrow {
-    background-image: url(../images/next.png);
-    width: 36px;
-    height: 52px;
+    width: 0;
+    height: 0;
     position: absolute;
-    right: 26px;
-    top: 45%;
+    right: 60px;
+    top: 40%;
     z-index: 1;
-    display: block;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 .slick-prev::before, .slick-next::before {
-    content: none;
+    content: '';
 }
 .slider__inner::before {
     content: '';

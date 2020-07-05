@@ -4,6 +4,8 @@ $(function () {
   $(".slider__inner").slick({
     arrows: true,
     asNavFor: ".slider__nav",
+    prevArrow: '<button class="slick-prev"><img src="images/previous.png" alt=""></button>',
+    nextArrow: '<button class="slick-next"><img src="images/next.png" alt=""></button>'
   });
   $(".slider__nav").slick({
     slidesToShow: 6,
